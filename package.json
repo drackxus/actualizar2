@@ -5,7 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +19,7 @@
     "electron-updater": "^6.1.4"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/drackxus/actualizar2.git"
-  },
+    "type": "git",
+    "url": "https://github.com/drackxus/actualizar2.git"
+  }
 }
